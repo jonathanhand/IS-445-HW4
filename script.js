@@ -14,7 +14,6 @@ xhttp.onreadystatechange = function() {
        }
        for (entry in emailList)
         document.getElementById("box1").innerHTML += emailList[entry] + '</br>';
-
     }
 };
 xhttp.send();
